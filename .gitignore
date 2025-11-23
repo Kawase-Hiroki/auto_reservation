@@ -10,5 +10,5 @@ wheels/
 .venv
 
 # 個人情報保護
-.json
+*.json
 .env
