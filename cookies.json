@@ -1,0 +1,112 @@
+[
+  {
+    "name": "JSESSIONID",
+    "value": "60010B6623FC74C14A399235830ED2C1",
+    "domain": "portal.nap.gsic.titech.ac.jp",
+    "path": "/GetAccess",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "AUTH_SESSION_ID",
+    "value": "SMS_getaccess002_76f8d8::67de12efb7e158961abad5b291a66226",
+    "domain": ".titech.ac.jp",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ASP.NET_SessionId",
+    "value": "3hxwlyddwa4odwk3tjkufx5u",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "Language",
+    "value": "ja-JP",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": 1772556895.917439,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "titech.kyomuweb.imitatinguserid",
+    "value": "",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": 1763996397.917463,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "titech.kyomuweb.imitatelogin_narisumasi",
+    "value": "",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": 1763996397.917486,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "titech.kyomuweb.renrakukyoin",
+    "value": "",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": 1763996397.917512,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "titech.kyomuweb.imitatelogin_thru",
+    "value": "",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": 1763996397.917528,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "titech.kyomuweb.imitatelogin_thru2",
+    "value": "",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": 1763996397.917543,
+    "httpOnly": true,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "KYOMU-http",
+    "value": "rs4|aSM8Z",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "TitechForm",
+    "value": "AC56CA824CEB764AFF95113453A4646E81D51FE42BEEED73793E4F790CEECA79E5A0FD3708B85A849EB58D7D02A2DB69FFA94CDEC7F879C29A81A14301D26A55FEEC0337EC9D980A4F2878CFC808772F55A90550C45CD699B466F61C0F30F6FAEF048A563E64B116F7270BDEEEC9DF209A1E41CA469D72BD791988C8DA9FDA67BE6C80F2",
+    "domain": "kyomu0.gakumu.titech.ac.jp",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]
