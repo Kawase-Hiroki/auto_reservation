@@ -4,6 +4,10 @@ import re
 from pathlib import Path
 from playwright.sync_api import Playwright, sync_playwright
 
+import schedule
+import time
+from datetime import datetime
+
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -15,6 +19,14 @@ def get_matrix(code):
     row = code[0]
     col = int(code[1]) - 1
     return MATRIX[row][col]
+
+def job():
+    print("実行されました！", datetime.now())
+    with sync_playwright() as playwright:
+        run(playwright)
+    exit()
+
+schedule.every().monday.at("14:07").do(job)
 
 def run(playwright: Playwright):
     USERNAME = os.getenv("TITECH_USERNAME")
@@ -85,5 +97,6 @@ def run(playwright: Playwright):
     # ブラウザを閉じる
     browser.close()
 
-with sync_playwright() as playwright:
-    run(playwright)
+while True:
+    schedule.run_pending()
+    time.sleep(1)
